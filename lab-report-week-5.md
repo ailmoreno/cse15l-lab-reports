@@ -44,12 +44,24 @@ find some-files/ | grep ".java" | xargs wc
 ```
 *Searches for any files that doesn't contain "c" in the current directory.*
 ```
-find some-files/ | grep -L "c" *
+find some-files/ | grep -L ".java" *
 ```
-*Searches for string in all of some-files for ar, then prints the name of the file*
+#### Result
 ```
-find some-files/ | grep ar *
+some-files/a.txt
+some-files/more-files/b.txt
+some-files/more-files/even-more-files/a.txt
 ```
+
+*Searches for string in all of some-files for hello, then prints the name of the file*
+```
+find some-files/ | grep "hello" *
+```
+#### Result
+```
+some-files/a.txt: Hello
+```
+##### *Not sure of output for above since not sure of complete code*
 
 
 ---
