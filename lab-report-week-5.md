@@ -32,6 +32,7 @@ wilde:book.  Books are well written or badly written.
 ```
 ---
 ### Command-Line In-Class Examples
+*Under some-files, gives word count of command-line arguments from standard input. Ontop of printing the matching files of .javas*
 
 ```
 find some-files/ | grep ".java" | xargs wc
@@ -42,7 +43,7 @@ find some-files/ | grep ".java" | xargs wc
 1   1   7   some-files//more-files/c.java
 3   3   18  total
 ```
-*Searches for any files that doesn't contain "c" in the current directory.*
+*Searches for any files that doesn't contain ".java" in the current directory.*
 ```
 find some-files/ | grep -L ".java" *
 ```
