@@ -22,7 +22,7 @@ To double check my code stayed, I re-typed vim DocSearchServer.java.
 # Part 2
 *Second, start already logged into a ssh session. Then, make the edit for the task you chose in Vim, then exit Vim and run bash test.sh.*
 
-This method was the most comfortable and fastest for me, effectively taking around 40 minute to do. The first method took too long, around 1 minute and 20 seconds. 
+This method was the most comfortable and fastest for me, effectively taking around 40 seconds to do. The first method took too long, around 1 minute and 20 seconds. 
 
 I was struggling especially with writing the whole scp code, it was faster to already be logged into ssh and making the edits inside the code. 
 
