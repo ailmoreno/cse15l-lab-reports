@@ -5,6 +5,8 @@
 
 [Lab Report 5](lab-report-week-5.md)
 
+[Lab Report 7](lab-report-week-7.md)
+
 This is the *Markdown Guide* Cheat Sheet for different **formats**.
 
 > [Link](https://commonmark.org/help/)
